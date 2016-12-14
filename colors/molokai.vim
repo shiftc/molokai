@@ -134,6 +134,7 @@ end
 "
 " Support for 256-color terminal
 "
+hi link Variable      Normal
 if &t_Co > 255
    if s:molokai_original == 1
       hi Normal                   ctermbg=234
